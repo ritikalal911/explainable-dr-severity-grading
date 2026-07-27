@@ -397,6 +397,3 @@ Planned next stages include:
 This project is licensed under the [MIT License](LICENSE).
 
 Copyright © 2026 **Ritika Lal**
-This project is licensed under the [MIT License](LICENSE).
-
-Copyright © 2026 **Ritika Lal**
