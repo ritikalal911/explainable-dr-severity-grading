@@ -614,7 +614,7 @@ The displayed speed table shows `B_clahe` at **140.858 ms per image**, not about
 
 ## 21. Combined summary
 
-![Validation and test summary table](studies/02_preprocessing/figures/figures_summary_table.png)
+![Validation and test summary table](studies/02_preprocessing/figures_summary_table.png)
 
 ### What the table implies
 
