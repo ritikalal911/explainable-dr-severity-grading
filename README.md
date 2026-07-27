@@ -240,7 +240,7 @@ explainable-dr-severity-grading/
 ├── LICENSE
 ├── .gitignore
 │
-├── aptos2019/                         
+├── aptos2019/                         # Not committed; create locally
 │   ├── dataset.csv
 │   └── images/
 │
@@ -299,6 +299,30 @@ pip install torch torchvision opencv-python-headless numpy pandas matplotlib sea
 ```
 
 A CUDA-capable GPU is recommended for model training. The reported experiments were executed with CUDA acceleration.
+
+---
+
+## Dataset Setup
+
+Download the APTOS 2019 Blindness Detection data from Kaggle and arrange it as follows:
+
+```text
+aptos2019/
+├── dataset.csv
+└── images/
+    ├── 000c1434d8d7.png
+    ├── 001639a390f0.png
+    └── ...
+```
+
+The labels CSV must contain:
+
+| Column | Description |
+|---|---|
+| `id_code` | Image filename without the `.png` extension |
+| `diagnosis` | Integer severity label from 0 to 4 |
+
+The dataset is intentionally excluded from Git because of its size and external distribution terms.
 
 ---
 
@@ -394,6 +418,7 @@ Planned next stages include:
 ---
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
 
 Copyright © 2026 **Ritika Lal**
