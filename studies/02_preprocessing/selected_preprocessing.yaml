@@ -1,0 +1,10 @@
+selected_pipeline: B_clahe
+val_qwk: 0.8842245852611129
+val_macro_f1: 0.6858354195145785
+val_accuracy: 0.8378870673952641
+val_loss: 0.7615313019691704
+test_qwk: 0.8828156361098702
+test_macro_f1: 0.6578880534554441
+checkpoint_path: studies/02_preprocessing/best_preprocessing_baseline_checkpoint.pth
+seed: 42
+image_size: 224
